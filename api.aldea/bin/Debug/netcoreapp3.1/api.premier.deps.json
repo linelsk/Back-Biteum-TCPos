@@ -32,8 +32,8 @@
           "Swashbuckle.AspNetCore.Swagger": "5.5.1",
           "Swashbuckle.AspNetCore.SwaggerGen": "5.5.1",
           "Swashbuckle.AspNetCore.SwaggerUI": "5.5.1",
-          "biz.premier": "1.0.0",
-          "dal.premier": "1.0.0",
+          "biz.tcpos": "1.0.0",
+          "dal.tcpos": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1732,7 +1732,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "biz.premier/1.0.0": {
+      "biz.tcpos/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
@@ -1740,26 +1740,26 @@
           "NLog.Web.AspNetCore": "4.9.2"
         },
         "runtime": {
-          "biz.premier.dll": {}
+          "biz.tcpos.dll": {}
         },
         "compile": {
-          "biz.premier.dll": {}
+          "biz.tcpos.dll": {}
         }
       },
-      "dal.premier/1.0.0": {
+      "dal.tcpos/1.0.0": {
         "dependencies": {
           "CryptoHelper": "3.0.2",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
           "System.IdentityModel.Tokens.Jwt": "6.7.1",
-          "biz.premier": "1.0.0"
+          "biz.tcpos": "1.0.0"
         },
         "runtime": {
-          "dal.premier.dll": {}
+          "dal.tcpos.dll": {}
         },
         "compile": {
-          "dal.premier.dll": {}
+          "dal.tcpos.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4364,12 +4364,12 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "biz.premier/1.0.0": {
+    "biz.tcpos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "dal.premier/1.0.0": {
+    "dal.tcpos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

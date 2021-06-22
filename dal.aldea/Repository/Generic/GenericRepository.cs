@@ -211,20 +211,5 @@ namespace dal.premier.Repository
 
             return new PagedList<T>(totalRows, result);
         }
-
-        public bool UpdateStatusServiceRecord(int wos, int statusNew)
-        {
-            var srId = _context.WorkOrderServices.Where(x => x.Id == wos).Select(s => new
-            {
-                sr = s.BundledServices.Any()
-                    ? s.BundledServices.FirstOrDefault().BundledServiceOrder.WorkOrder.ServiceRecordId
-                    : s.StandaloneServiceWorkOrders.FirstOrDefault().WorkOrder.ServiceRecordId
-            }).FirstOrDefault();
-            var sr = _context.ServiceRecords.Find(srId.sr);
-            sr.StatusId = statusNew == 33 ? 4 : sr.StatusId == 2 && statusNew == 2 ? 3 : sr.StatusId ;
-            _context.ServiceRecords.Update(sr);
-            _context.SaveChanges();
-            return true;
-        }
     }
 }

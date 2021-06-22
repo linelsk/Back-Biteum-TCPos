@@ -4,12 +4,12 @@
     "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj": {}
   },
   "projects": {
-    "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj": {
+    "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj",
-        "projectName": "biz.premier",
-        "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj",
+        "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj",
+        "projectName": "biz.tcpos",
+        "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj",
         "packagesPath": "C:\\Users\\linel\\.nuget\\packages\\",
         "outputPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\obj\\",
         "projectStyle": "PackageReference",
@@ -107,8 +107,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj": {
-                "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj"
+              "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj": {
+                "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj"
               }
             }
           }

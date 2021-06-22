@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IK1PAJyRIAYF1agB5pUfzCdsVZpiYRuAps+z964CcDD+y7N/zAbARv+WxjVbkFa5d8pkCrMQJcVwjOn3xDkWQA==",
+  "dgSpecHash": "vC1/2JIKrYKWFc22mk/8mcxF9T2rZQXU1JYNT81+pDSVJYY9DibuCF+qWMVbS3tYOOINZcD8HKmCeR1bpTvm7A==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj",
+  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

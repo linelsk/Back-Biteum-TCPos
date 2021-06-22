@@ -6,14 +6,6 @@ namespace api.premier.Hubs
 {
     public class MessageHub : Hub
     {
-        public async System.Threading.Tasks.Task NewConversation(ChatConversationImmigrationRelocation msg)
-        {
-            await Clients.All.SendAsync("MessageReceived", msg);
-        }
-
-        public async System.Threading.Tasks.Task NewMessage(ChatImmigrationRelocation msg)
-        {
-            await Clients.All.SendAsync("MessageReceived", msg);
-        }
+       
     }
 }

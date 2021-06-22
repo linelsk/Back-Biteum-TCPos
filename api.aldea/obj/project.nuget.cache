@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLJv78PtvGOVBD2hO8l/6KAbO6zjyBLMFiKE8GBQQzgVD9ZrOS6cVHSPNqvYXR37JNAopyk7n0pIBDnztKyUeg==",
+  "dgSpecHash": "IxcVRYvjw1cv9T0Hn9oTjIMFH1naXf9GP7rUw1wErHTBTq7L5KEZdFSpMLBEVDwgelLZcMXGMRUa12Xqdelz/w==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.premier.csproj",
+  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.tcpos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linel\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\linel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.0\\automapper.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",

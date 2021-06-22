@@ -98,27 +98,6 @@ namespace api.premier.Controllers
             return Ok(response);
         }
 
-        [HttpGet("user", Name = "Get_Test")]
-        public ActionResult Get_Test()
-        {
-            var response = new ApiResponse<dynamic>();
-
-            try
-            {
-                response.Result = _userRepository.get();
-            }
-            catch (Exception ex)
-            {
-                response.Result = null;
-                response.Success = false;
-                response.Message = "Internal server error";
-                _logger.LogError($"Something went wrong: { ex.ToString() }");
-                return StatusCode(500, response);
-            }
-
-            return Ok(response);
-        }
-
         [HttpGet("VeryfyEmail", Name = "VeryfyEmail")]
         public ActionResult VeryfyEmail(string email)
         {
@@ -290,25 +269,12 @@ namespace api.premier.Controllers
             try
             {
                 var _user =  _mapper.Map<User>(_userRepository.Find(c => c.Email == email));
-                var _userType = _mapper.Map<List<User>>(_userRepository.GetAllIncluding(c => c.UserType, r => r.Role, y => y.ProfileUsers, x => x.AssigneeInformations));
                 //var _assignee = _mapper.Map<List<User>>(_userRepository.GetAllIncluding(c => c.AssigneeInformations));
                 if (_user != null)
                 {
                     if (_userRepository.VerifyPassword(_user.Password, password))
                     {
-                        _user.UserType = _userType.Where(x => x.Id == _user.Id).FirstOrDefault().UserType;
-                        _user.Role = _userRepository.GetRole(_user.RoleId);
-                            //_userType.Where(x => x.Id == _user.Id).FirstOrDefault().Role;
-                        _user.AssigneeInformations = _userType.FirstOrDefault(x => x.Id == _user.Id).AssigneeInformations;
-                        _user.ProfileUsers = _userType.Where(x => x.Id == _user.Id).FirstOrDefault().ProfileUsers;
-                        //_user.UserType.Users.Clear();
-                        _user.UserType.Users.Clear();
                         var userData = _mapper.Map<UserDto>(_user);
-                        if (userData.AssigneeInformations.Any())
-                        {
-                            userData.ClientName =
-                                _userRepository.GetClientName(userData.AssigneeInformations.FirstOrDefault().Id);
-                        }
                         response.Result = userData;
                         response.Result.token = _userRepository.BuildToken(_user);
                         response.Success = true;

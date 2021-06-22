@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G9dHRznTCz6sT8FGeI425jhFTq8WgRzzmb+4G0OdghKlzU+NJDlKIEFwaFGpYdpY/hQTGrDg+4sKBsqrFE8Cdg==",
+  "dgSpecHash": "fWskypfjanI9gK8kInkdlxT2FlXw0pmAj2b/XpX0U7JCx6GDhpI2MKsQCNsNkVb/WaVSjRjDh/CSlR1sWJ5FRg==",
   "success": true,
-  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj",
+  "projectFilePath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.tcpos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linel\\.nuget\\packages\\cryptohelper\\3.0.2\\cryptohelper.3.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

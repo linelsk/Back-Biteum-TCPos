@@ -8,7 +8,6 @@ namespace biz.premier.Entities
     {
         public CatRole()
         {
-            Permissions = new HashSet<Permission>();
             Users = new HashSet<User>();
         }
 
@@ -21,7 +20,6 @@ namespace biz.premier.Entities
         public DateTime? UpdatedDate { get; set; }
         public bool? Status { get; set; }
 
-        public virtual ICollection<Permission> Permissions { get; set; }
         public virtual ICollection<User> Users { get; set; }
     }
 }

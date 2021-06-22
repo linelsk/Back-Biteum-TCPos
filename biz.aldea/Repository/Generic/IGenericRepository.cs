@@ -48,6 +48,5 @@ namespace biz.premier.Repository
 
         PagedList<T> GetAllPaged(int pageNumber, int pageSize);
         Task<PagedList<T>> GetAllPagedAsyn(int pageNumber, int pageSize);
-        bool UpdateStatusServiceRecord(int wos, int statusNew);
     }
 }

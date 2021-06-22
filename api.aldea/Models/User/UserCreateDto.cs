@@ -5,6 +5,7 @@ namespace api.premier.Models
 {
     public class UserCreateDto
     {
+        public int Id { get; set; }
         [Required]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; }
@@ -17,14 +18,14 @@ namespace api.premier.Models
         public string MobilePhone { get; set; }
         [Required]
         public int RoleId { get; set; }
-        [Required]
-        public int UserTypeId { get; set; }
-        public int ServiceLineId { get; set; }
         public string Avatar { get; set; }
         public bool? Reset { get; set; }
-        public int CreatedBy { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public int UpdateBy { get; set; }
-        public DateTime UpdatedDate { get; set; }
+        public bool? Status { get; set; }
+        public bool? Send { get; set; }
+        public int? CreatedBy { get; set; }
+        public DateTime? CreatedDate { get; set; }
+        public int? UpdateBy { get; set; }
+        public DateTime? UpdatedDate { get; set; }
+        public string token { get; set; }
     }
 }

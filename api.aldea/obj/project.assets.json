@@ -1990,7 +1990,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "biz.premier/1.0.0": {
+      "biz.tcpos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2000,13 +2000,13 @@
           "NLog.Web.AspNetCore": "4.9.2"
         },
         "compile": {
-          "bin/placeholder/biz.premier.dll": {}
+          "bin/placeholder/biz.tcpos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/biz.premier.dll": {}
+          "bin/placeholder/biz.tcpos.dll": {}
         }
       },
-      "dal.premier/1.0.0": {
+      "dal.tcpos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2015,13 +2015,13 @@
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
           "System.IdentityModel.Tokens.Jwt": "6.7.1",
-          "biz.premier": "1.0.0"
+          "biz.tcpos": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/dal.premier.dll": {}
+          "bin/placeholder/dal.tcpos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/dal.premier.dll": {}
+          "bin/placeholder/dal.tcpos.dll": {}
         }
       }
     }
@@ -6884,15 +6884,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "biz.premier/1.0.0": {
+    "biz.tcpos/1.0.0": {
       "type": "project",
-      "path": "../biz.aldea/biz.premier.csproj",
-      "msbuildProject": "../biz.aldea/biz.premier.csproj"
+      "path": "../biz.aldea/biz.tcpos.csproj",
+      "msbuildProject": "../biz.aldea/biz.tcpos.csproj"
     },
-    "dal.premier/1.0.0": {
+    "dal.tcpos/1.0.0": {
       "type": "project",
-      "path": "../dal.aldea/dal.premier.csproj",
-      "msbuildProject": "../dal.aldea/dal.premier.csproj"
+      "path": "../dal.aldea/dal.tcpos.csproj",
+      "msbuildProject": "../dal.aldea/dal.tcpos.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6905,8 +6905,8 @@
       "Swashbuckle.AspNetCore.Swagger >= 5.5.1",
       "Swashbuckle.AspNetCore.SwaggerGen >= 5.5.1",
       "Swashbuckle.AspNetCore.SwaggerUI >= 5.5.1",
-      "biz.premier >= 1.0.0",
-      "dal.premier >= 1.0.0"
+      "biz.tcpos >= 1.0.0",
+      "dal.tcpos >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6916,9 +6916,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.premier.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.tcpos.csproj",
       "projectName": "api.premier",
-      "projectPath": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.premier.csproj",
+      "projectPath": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\api.tcpos.csproj",
       "packagesPath": "C:\\Users\\linel\\.nuget\\packages\\",
       "outputPath": "D:\\Desarrollo\\TCPos\\Back\\api.aldea\\obj\\",
       "projectStyle": "PackageReference",
@@ -6940,11 +6940,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj": {
-              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj"
+            "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj": {
+              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj"
             },
-            "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj": {
-              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj"
+            "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.tcpos.csproj": {
+              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.tcpos.csproj"
             }
           }
         }

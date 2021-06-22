@@ -2188,7 +2188,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "biz.premier/1.0.0": {
+      "biz.tcpos/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -2198,10 +2198,10 @@
           "NLog.Web.AspNetCore": "4.9.2"
         },
         "compile": {
-          "bin/placeholder/biz.premier.dll": {}
+          "bin/placeholder/biz.tcpos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/biz.premier.dll": {}
+          "bin/placeholder/biz.tcpos.dll": {}
         }
       }
     }
@@ -7271,10 +7271,10 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "biz.premier/1.0.0": {
+    "biz.tcpos/1.0.0": {
       "type": "project",
-      "path": "../biz.aldea/biz.premier.csproj",
-      "msbuildProject": "../biz.aldea/biz.premier.csproj"
+      "path": "../biz.aldea/biz.tcpos.csproj",
+      "msbuildProject": "../biz.aldea/biz.tcpos.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7285,7 +7285,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
       "NETStandard.Library >= 2.0.3",
       "System.IdentityModel.Tokens.Jwt >= 6.7.1",
-      "biz.premier >= 1.0.0"
+      "biz.tcpos >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7295,9 +7295,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj",
-      "projectName": "dal.premier",
-      "projectPath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.premier.csproj",
+      "projectUniqueName": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.tcpos.csproj",
+      "projectName": "dal.tcpos",
+      "projectPath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\dal.tcpos.csproj",
       "packagesPath": "C:\\Users\\linel\\.nuget\\packages\\",
       "outputPath": "D:\\Desarrollo\\TCPos\\Back\\dal.aldea\\obj\\",
       "projectStyle": "PackageReference",
@@ -7319,8 +7319,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj": {
-              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.premier.csproj"
+            "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj": {
+              "projectPath": "D:\\Desarrollo\\TCPos\\Back\\biz.aldea\\biz.tcpos.csproj"
             }
           }
         }

@@ -8,7 +8,6 @@ using dal.premier.Repository.Utility;
 using Microsoft.AspNetCore.Builder;
 using biz.premier.Entities;
 using Microsoft.EntityFrameworkCore.Metadata;
-using api.premier.Models.RequestPayment;
 
 namespace api.premier.Extensions
 {
